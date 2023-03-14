@@ -1,0 +1,59 @@
+.whole{
+    width: 100%;
+    margin-bottom: 20px;
+    transition: height 0.2s ease;
+}
+.commenttop{
+    display: grid;
+    grid-template-columns: 50px 1fr 100px;
+    grid-gap: 25px;
+}
+.userimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.content{
+    width: 82%;
+    margin-left: 8%;
+    margin-top: 15px;
+    color: #647196;
+}
+.username{
+    color: #647196;
+}
+.mycommentdiv{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.textarea{
+    resize: none;
+    border: none;
+    background-color: #F2F4FF;
+    width: 72%;
+    height: 93px;
+    border-radius: 10px;
+}
+.postbtn{
+    border: none;
+    width: 150px;
+    height: 53px;
+    background-color: #AD1FEA;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.reply{
+    color: #4661e6;
+    text-decoration: underline;
+    font-size: 18px;
+    cursor: pointer;
+}

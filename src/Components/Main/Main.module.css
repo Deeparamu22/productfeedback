@@ -1,0 +1,92 @@
+.whole{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+.topbar{
+    background-color: #373F68;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50px 200px 1fr 200px;
+    align-items:center;
+}
+.suggestions{
+    
+    margin-left: 10px;
+    width: 82%;
+
+}
+.sugCount{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.sortDiv{
+    display: flex;
+    color: white;
+}
+.sortpara{
+    color: #647196;
+    margin-right: 10px;
+}
+.downarrow{
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+.addfeed{
+    height: 53px;
+    background-color: #AD1FEA;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.suggestionswholeDiv{
+    width: 100%;
+    height: 85vh;
+    overflow-y: scroll;
+}
+.absolute{
+    position: absolute;
+    width: 283px;
+    height: 275px;
+    border-radius: 10px;
+    top: 7vh;
+    left: 62vh;
+    background-color: white;
+    box-shadow: 1px 2px 19px 5px #626060;
+}
+.sorttext{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 2px solid gray;
+    color: #647196;
+}
+.sort{
+    display: flex;
+    width: 140px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.radiobtn {
+    display: none;
+}
+.radiobtn:checked + .sorttext {
+    color: #AD1FEA;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

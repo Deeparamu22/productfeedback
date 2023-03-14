@@ -1,0 +1,9 @@
+.whole{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 365px 4fr;
+    grid-gap: 42px;
+    margin-left: 5%;
+    transform: translateY(60px);
+}

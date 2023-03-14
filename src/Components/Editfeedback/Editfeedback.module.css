@@ -1,0 +1,115 @@
+.whole{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    width: 37%;
+    margin: 100px 563px;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+.goback{
+    
+    transform: translate(567px,120px);
+    color: rgb(55, 63, 104);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 114px;
+    align-items: center;
+
+}
+.newfeedbackicon{
+   
+    transform: translate(620px,150px);
+    width: 63px;
+
+}
+.titlestyle{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(55, 63, 104);
+}
+.cretetext{
+    color:rgb(55, 63, 104) ;
+}
+.paratext{
+    color: #647196;
+}
+.inputDiv{
+    resize: none;
+    border: none;
+    background-color: #F2F4FF;
+    width: 90%;
+    height: 67px;
+    border-radius: 10px;
+    color: #647196;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.textarea{
+    resize: none;
+    border: none;
+    background-color: #F2F4FF;
+    width: 90%;
+    height: 87px;
+    color: #647196;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+.cancelbtn{
+    border: none;
+    width: 180px;
+    height: 53px;
+    background-color: rgb(55, 63, 104);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.addbtn{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 180px;
+    height: 53px;
+    background-color: #AD1FEA;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.Deletebtn{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 180px;
+    height: 53px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 65px;
+    border-radius: 10px; 
+}
+.buttondiv{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 67px;
+
+}

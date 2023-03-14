@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Createfeedback from './Components/Createfeedback/Createfeedback';
+import Whole from './Components/Whole/Whole';
+import {  Routes, Route } from "react-router-dom";
+import ViewSuggestion from './Components/ViewSuggestion/ViewSuggestion';
+import Editfeedback from './Components/Editfeedback/Editfeedback';
+import Roadmap from './Components/Roadmap/Roadmap';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Routes>
+       <Route path='/' element={<Whole/>}></Route>
+        <Route path='/newfeedback' element={<Createfeedback/> }></Route>
+        <Route path='/roadmap' element={<Roadmap/> }></Route>
+        <Route path='/view/:id' element={<ViewSuggestion/> }></Route>
+        <Route path='/edit/:id' element={<Editfeedback/> }></Route>
+       </Routes>
     </div>
   );
 }

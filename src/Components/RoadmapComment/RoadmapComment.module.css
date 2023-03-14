@@ -1,0 +1,58 @@
+.whole{
+    width: 90%;
+    height: 209px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.whole.planned{
+    border-top: 9px solid #F49F85;
+}
+.whole.live{
+    border-top: 9px solid #62BCFA;
+}
+.whole.progressin{
+    border-top: 9px solid #AD1FEA;
+}
+.iconCircle{
+    font-size: 10px;
+    margin-right: 20px;
+}
+.iconCircle.planned{
+    color: #F49F85;
+}
+.iconCircle.live{
+    color: #62BCFA;
+}
+.iconCircle.progressin{
+    color: #AD1FEA;
+}
+.title{
+    text-transform: capitalize;
+    color: #647196;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+.titlestyle{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(55, 63, 104);
+    margin-top: 10px;
+} 
+.smalldiv{
+    margin: 9px 10px 9px 0px;
+    height: 22px;
+    border-radius: 10px;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    padding: 8px 17px 8px 17px;
+    background-color: #F2F4FF;
+    color: #4661E6;
+}
+.bottomdiv{
+    display: flex;
+    justify-content: space-between;
+}
